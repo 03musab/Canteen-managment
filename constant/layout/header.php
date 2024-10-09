@@ -50,7 +50,7 @@ include('./constant/check.php');
                                 <img src="./assets/uploadImage/Profile/young-woman-avatar-facial-features-stylish-userpic-flat-cartoon-design-elegant-lady-blue-jacket-close-up-portrait-80474088.jpg" alt="user" class="profile-pic" /></a>
                             <div class="dropdown-menu dropdown-menu-right animated zoomIn">
                                 <ul class="dropdown-user">
-                                   <?php if(isset($_SESSION['userId']) && $_SESSION['userId']==1) { ?>
+                                   <?php if(isset($_SESSION['userId'])) { ?>
                                      <li><a href="setting.php"><i class="fa fa-key"></i> Changed Password</a></li>
                                       <li><a href="users.php"><i class="fa fa-user"></i> Add user</a></li>
                                      <?php }?>
