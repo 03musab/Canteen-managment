@@ -12,7 +12,9 @@
          <nav class="sidebar-nav">
              <ul id="sidebarnav">
                  <li class="nav-devider"></li>
+                 <li class="nav-label"></li>
                  <li class="nav-label">Home</li>
+
                  <li> <a href="dashboard.php" aria-expanded="false"><i class="fa fa-tachometer"></i>Dashboard</a>
                  </li>
 
@@ -59,16 +61,6 @@
                  <?php if (isset($_SESSION['userId']) ) { ?>
                      <li><a href="report.php" href="#" aria-expanded="false"><i class="fa fa-flag"></i><span class="hide-menu">Reports</span></a></li>
 
-                 <?php } ?>
-                 <?php if (isset($_SESSION['userId']) ) { ?>
-                     <li> <a class="has-arrow" href="#" aria-expanded="false"><i class="fa fa-cog"></i><span class="hide-menu">Setting</span></a>
-                         <ul aria-expanded="false" class="collapse">
-
-                             <li><a href="manage_website.php">Web Management</a></li>
-
-
-                         </ul>
-                     </li>
                  <?php } ?>
 
              </ul>

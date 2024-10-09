@@ -115,7 +115,7 @@ if($_POST) {
                     <div class="col-lg-4 ml-auto">
                         <div class="login-content">
                             <div class="login-form">
-                                <center><img src="./assets/uploadImage/Logo/logo.png" style="width: 100%;"></center><br>
+                                <center><img src="./assets/uploadImage/Logo/profile.jpg" style="width: 100%;"></center><br>
                                 <form action="<?php echo $_SERVER['PHP_SELF'] ?>" method="post" id="loginForm">
                                     <div class="form-group">
                                        

@@ -43,8 +43,8 @@ $connect->close();
                                     <form class="form-horizontal" method="POST"  id="submitBrandForm" action="php_action/changeUsername.php" enctype="multipart/form-data">
 
                                         
-                        <h1>Change Username</h1>
-<div class="changeUsenrameMessages"></div>
+                                    <h1 style="color: black;">Change Username</h1> <!-- Ensure it's visible -->
+                                    <div class="changeUsenrameMessages"></div>
                                         <div class="form-group">
                                             <div class="row">
                                                 <label class="col-sm-3 control-label">Username</label>
@@ -61,7 +61,7 @@ $connect->close();
                                     </form>
                                     <form action="php_action/changePassword.php" method="post" class="form-horizontal" id="changePasswordForm">
                     
-                        <h1>Change Password</h1>
+                                    <h1 style="color: black;">Change Password</h1> <!-- Ensure it's visible -->
 
                         <div class="changePasswordMessages"></div>
 
