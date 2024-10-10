@@ -42,7 +42,7 @@ $result = $connect->query($sql);
                             <tr>
                                 <th>#</th>
                                 <th>Invoice Date</th>
-                                <th>Customer Name</th>
+                                <th>Customer ID</th>
                                 <th>Contact</th>
                                 <th>Total Amount</th>
                                 <th>Paid Amount</th>

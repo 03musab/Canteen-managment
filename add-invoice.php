@@ -118,7 +118,7 @@
                         $result = $connect->query($sql);
 
                         while ($row = $result->fetch_array()) {
-                          echo "<option value='" . $row['id'] . "'>" . htmlspecialchars($row['name']) . "</option>";
+                          echo "<option value='".$row['id']."'>".$row['name']."</option>";
                         } // while
 
                         ?>

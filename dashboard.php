@@ -141,7 +141,7 @@ $result = $connect->query($sql);
                 <thead>
                     <tr>
                         <th>Invoice Date</th>
-                        <th>Customer Name</th>
+                        <th>Customer ID</th>
                         <th>Contact</th>
 
                     </tr>

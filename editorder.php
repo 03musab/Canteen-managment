@@ -5,35 +5,48 @@
 <link rel="stylesheet" href="custom/js/order.js">
 
 <?php include('./constant/connect.php');
-
- 
-
-
-
-if($_GET['o'] == 'add') { 
-// add order
-  echo "<div class='div-request div-hide'>add</div>";
-} else if($_GET['o'] == 'manord') { 
-  echo "<div class='div-request div-hide'>manord</div>";
-} else if($_GET['o'] == 'editOrd') { 
-  echo "<div class='div-request div-hide'>editOrd</div>";
-} // /else manage order
-
-
 ?>
-
-
-
-<h4>
-  <i class='glyphicon glyphicon-circle-arrow-right'></i>
-  <?php if($_GET['o'] == 'add') {
-    echo "Add Order";
-  } else if($_GET['o'] == 'manord') { 
-    echo "Manage Order";
-  } else if($_GET['o'] == 'editOrd') { 
-    echo "Edit Order";
+<div class='div-request div-hide'>
+  <?php 
+  if (isset($_GET['o'])) {
+      switch ($_GET['o']) {
+          case 'add':
+              echo "add";
+              break;
+          case 'manord':
+              echo "manord";
+              break;
+          case 'editOrd':
+              echo "editOrd";
+              break;
+          default:
+              echo "default";
+      }
+  } else {
+      echo "default";
   }
-  ?>  
+  ?>
+</div>
+  <i class='glyphicon glyphicon-circle-arrow-right'></i>
+  <?php 
+  if (isset($_GET['o'])) {
+      switch ($_GET['o']) {
+          case 'add':
+              echo "Add Order";
+              break;
+          case 'manord':
+              echo "Manage Order";
+              break;
+          case 'editOrd':
+              echo "Edit Order";
+              break;
+          default:
+              echo "Orders";
+      }
+  } else {
+      echo "Orders";
+  }
+  ?> 
 </h4>
 
 
