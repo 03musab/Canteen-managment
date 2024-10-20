@@ -4,7 +4,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "musab";
-$dbname = "youthappam";
+$dbname = "apsitcanteen";
 
 
 // Create connection
