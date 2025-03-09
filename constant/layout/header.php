@@ -44,7 +44,7 @@ include('./constant/connect.php');
                 </ul>
                 <marquee behavior="alternate" direction="left" scrollamount="4">
                     <p style="color: red;">
-                        College Canteen Management System</p>
+                        A.P.SHAH College Canteen Management System</p>
                 </marquee>
                 <ul class="navbar-nav my-lg-0 ml-auto">
 
